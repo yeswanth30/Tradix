@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/yourTextViewId545"
+            android:layout_width="246dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:text="CUrrency Exchange"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/text239"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/baseline_arrow_back_ios_24" />
+
+        <ImageView
+            android:id="@+id/backgroundImage"
+            android:layout_width="240dp"
+            android:layout_height="101dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="256dp"
+            android:layout_marginEnd="-75dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/seccc"
+            android:translationX="20dp"
+            android:translationY="-20dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/qwe"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="4dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout1">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/circleImageView"
+                android:layout_width="163dp"
+                android:layout_height="37dp"
+                android:text="Exchange rate"
+                android:backgroundTint="#00ffba"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/girl"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="end"
+            android:layout_marginLeft="100dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/history"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginEnd="36dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/set"
+                tools:ignore="InvalidId" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/dots" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/resa"
+        android:layout_below="@id/qwe"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/olol" />
+
+        <TextView
+            android:id="@+id/firstTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="Eur" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/firstTextView"
+          android:src="@drawable/cern"
+
+            android:textColor="#f21cc8"
+            android:layout_marginTop="0dp"
+           />
+
+        <TextView
+            android:id="@+id/secondTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="2300 EUR"
+
+            android:textColor="#f21cc8"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/secondTextView"
+        android:layout_marginTop="8dp"
+        android:text="1 EUR = 1.1645 USD"/>
+
+        <ImageView
+            android:id="@+id/iimageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-28dp"
+            android:src="@drawable/change" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/ytr"
+        android:layout_below="@id/resa"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageVieww"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/olol" />
+
+        <TextView
+            android:id="@+id/firstTextVieww"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="USD" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/firstTextVieww"
+            android:src="@drawable/cern"
+
+            android:textColor="#f21cc8"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/secondTextVieww"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/firstTextVieww"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            android:textColor="#f21cc8"
+            android:layout_marginTop="8dp"
+            android:text="2678,48 EUR"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/secondTextVieww"
+            android:layout_marginTop="8dp"
+            android:text="1 USD = 0.8588 EUR"/>
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageVieww"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-17dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00ffba"
+            android:text="favorites" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ytr">
+
+        <!-- First ImageView -->
+        <!-- Adjust margin as needed -->
+        />
+
+        <!-- Second ImageView -->
+
+        <Button
+            android:id="@+id/imageView125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#00ffba"
+            android:src="@drawable/buy"
+
+            android:text="Buy" />
+
+        <Button
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="27dp"
+            android:layout_toRightOf="@id/imageView125"
+            android:backgroundTint="#f21cc8"
+            android:src="@drawable/kt"
+            android:text="Sell" />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

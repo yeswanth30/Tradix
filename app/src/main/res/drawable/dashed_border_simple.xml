@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- dashed_border_simple.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Solid color inside -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#E432C1" />
+        </shape>
+    </item>
+    <!-- Dashed border on top -->
+    <item android:left="1px" android:right="1px" android:top="1px" android:bottom="1px">
+        <shape android:shape="rectangle">
+            <stroke
+                android:color="#000000"
+                android:width="1px"
+                android:dashWidth="4px"
+                android:dashGap="4px" />
+        </shape>
+    </item>
+</layer-list>
+

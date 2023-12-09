@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/yyy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/text3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="111dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="100dp"
+            android:src="@drawable/illustration"
+            tools:ignore="NotSibling" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_below="@id/yyy"
+        android:id="@+id/green"
+        android:layout_height="wrap_content"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:id="@+id/wer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="7dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/horizontalTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tradix"
+                android:textSize="30dp"/>
+
+            <ImageView
+                android:id="@+id/horizontalImageView"
+                android:layout_width="49dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/coin" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/verticalTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wer"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="The Future of Trading"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/bottomImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yyy"
+        android:elevation="0dp"
+        android:src="@drawable/green" />
+
+    <RelativeLayout
+        android:id="@+id/yyyss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/green"
+        />
+
+    <RelativeLayout
+        android:id="@+id/login1"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_below="@+id/green"
+        android:gravity="center"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="36dp"
+        android:padding="16dp">
+
+
+        <EditText
+            android:id="@+id/text91"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/rounded_border"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/text02"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/text91"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rounded_border"
+
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/login76"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text02"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/login"
+            android:text="Login" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/login2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/login1"
+        android:layout_marginTop="2dp"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:id="@+id/forget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Forget Password?"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Signup"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="313dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/green"
+        android:layout_marginTop="30dp"
+
+        android:gravity="center"
+        android:text=" Welcome !"
+        android:textSize="26dp" />
+
+
+</RelativeLayout>
+
+

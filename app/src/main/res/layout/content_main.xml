@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/yourTextViewId5"
+        android:layout_width="107dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="start|top"
+        android:layout_marginEnd="-10dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Skip"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/flying_coins"
+        android:layout_width="173dp"
+        android:layout_height="115dp"
+        android:layout_below="@id/yourTextViewId5"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/flying_coins" />
+
+    <ImageView
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flying_coins"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-23dp"
+        android:src="@drawable/green" />
+
+    <ImageView
+        android:id="@+id/girl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/green"
+        android:layout_marginTop="-239dp"
+        android:src="@drawable/girl" />
+
+    <ImageView
+        android:id="@+id/coins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coins"
+        android:layout_below="@id/girl" />
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coins"
+        android:layout_marginTop="-256dp"
+        android:src="@drawable/background" />
+
+    <TextView
+        android:id="@+id/yourTextViewId"
+        android:layout_width="284dp"
+        android:layout_height="88dp"
+        android:layout_below="@id/background"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="65dp"
+        android:background="@drawable/dashed_border1"
+        android:fontFamily="sans-serif-light"
+        android:gravity="start|top"
+        android:text="Start to invest for your future!"
+        android:textAlignment="textStart"
+        android:textColor="#3e3e3e"
+        android:textSize="28sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/yourTextViewId1"
+        android:layout_width="278dp"
+        android:layout_height="36dp"
+        android:layout_below="@id/yourTextViewId"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="start|top"
+        android:layout_marginTop="-18dp"
+        android:layout_marginEnd="75dp"
+        android:background="@drawable/dashed_border1"
+        android:fontFamily="sans-serif-light"
+        android:gravity="start|top"
+        android:text="Invest with informed risk management"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/yourImageViewId"
+        android:layout_width="128dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="25dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/signup" />
+
+    <ImageView
+        android:id="@+id/yourImageViewId23"
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="38dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cursor" />
+
+
+
+</RelativeLayout>
+
+

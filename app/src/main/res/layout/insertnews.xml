@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/addcourses">
+
+    <ImageView
+        android:id="@+id/imageview123"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:id="@+id/first1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Name" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/first1"
+        android:layout_marginTop="44dp"
+        android:id="@+id/first12">
+
+        <EditText
+            android:id="@+id/first2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:hint="Description" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/first22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first12"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Date" />
+
+    <!-- The rest of your layout remains unchanged -->
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first22"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Alt-123%" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SelectImage"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="6dp"
+        android:hint="SUBMIT" />
+
+    <Button
+        android:id="@+id/SelectImage"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first22"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="54dp"
+        android:backgroundTint="#ffa500"
+        android:text="SELECT IMAGE"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

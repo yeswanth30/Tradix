@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- solid_border_with_fill.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Solid color background -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+    <!-- Solid border on top -->
+    <item android:left="1px" android:right="1px" android:top="1px" android:bottom="1px">
+        <shape android:shape="oval">
+            <stroke
+                android:color="#e432c1"
+                android:width="1dp"
+                android:dashWidth="0px"
+                android:dashGap="0px" />
+        </shape>
+    </item>
+</layer-list>

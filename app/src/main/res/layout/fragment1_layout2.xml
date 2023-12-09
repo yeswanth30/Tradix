@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lauu"
+        android:layout_marginTop="16dp">
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/baseline_arrow_back_ios_24"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"/>
+
+    <!-- First Text -->
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Portfolio 1"
+        android:layout_toEndOf="@id/icon1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="30dp"
+        android:layout_centerVertical="true"/>
+
+    <!-- Second Icon -->
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/plus"
+        android:layout_toEndOf="@id/text1"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="8dp"
+        android:layout_centerVertical="true"/>
+
+    <!-- Second Text -->
+    <ImageView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Text 2"
+        android:src="@drawable/dots"
+
+        android:layout_toEndOf="@id/icon2"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reew"
+        android:layout_below="@id/lauu"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/newImageView1"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/rug" />
+
+        <!-- Your new ImageView (second) -->
+        <ImageView
+            android:id="@+id/newImageView2"
+            android:layout_width="371dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/newImageView1"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="-223dp"
+            android:src="@drawable/portfolio" />
+
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView12"
+        android:layout_width="405dp"
+        android:layout_height="393dp"
+        android:layout_below="@+id/reew"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-29dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="-3dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/myButton90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trading Now"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#f21cc8"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+

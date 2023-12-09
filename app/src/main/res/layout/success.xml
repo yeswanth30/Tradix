@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Background Image -->
+        <ImageView
+            android:id="@+id/backgroundImage"
+            android:layout_width="240dp"
+            android:layout_height="101dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="256dp"
+            android:layout_marginEnd="-65dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/seccc"
+            android:translationX="20dp"
+            android:translationY="-20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <!-- TextView for Tradix -->
+
+        <!-- ImageView for Dollar Symbol -->
+        <TextView
+            android:id="@+id/textViewTradix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tradix"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewDollar"
+            android:layout_width="43dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="18dp"
+            android:layout_toEndOf="@id/textViewTradix"
+            android:contentDescription="Dollar Symbol"
+            android:src="@drawable/coin" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewTradix1"
+            android:layout_width="299dp"
+            android:layout_height="74dp"
+            android:text="Yay! Your password has been changed!"
+            android:textSize="28sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewTradix12"
+            android:layout_width="299dp"
+            android:layout_height="74dp"
+            android:text="You can now log into your account
+with the new password"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/backgroundImage2"
+            android:layout_width="208dp"
+            android:layout_height="307dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pasw"
+            android:translationX="80dp"
+            android:translationY="-60dp"
+            />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/backgroundImage43"
+            android:layout_width="208dp"
+            android:layout_height="307dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kk"
+            android:translationX="80dp"
+            android:translationY="0dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

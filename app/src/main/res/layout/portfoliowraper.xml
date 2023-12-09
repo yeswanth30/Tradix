@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/neo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!-- First Part with three text views -->
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/portfolio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Text View 1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/portfolio2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:text="Text View 2"/>
+
+            <TextView
+                android:id="@+id/portfolio3"
+
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="London"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Second Part with two text views -->
+    <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/portfolio4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text View 4"/>
+
+        <TextView
+            android:id="@+id/portfolio5"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text View 5"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/portfolio6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/uparrow"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/portfolio7"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="#00ffba"
+            android:text="900"/>
+
+        <TextView
+            android:id="@+id/portfolio8"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100"/>
+    </LinearLayout>
+</LinearLayout>

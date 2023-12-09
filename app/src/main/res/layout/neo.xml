@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/laauu"
+        android:layout_marginTop="-2dp">
+        <ImageView
+            android:id="@+id/icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stocks index"
+            android:layout_toEndOf="@id/icon1"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="30dp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/usd"
+            android:layout_below="@+id/text1"
+            android:layout_toEndOf="@id/icon1"
+            android:text="Your Text 3" />
+
+        <!-- Second Icon -->
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:layout_marginStart="59dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/icon1"
+            android:text="Binance" />
+
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="51dp"
+            android:layout_height="55dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="75dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/text1"
+            android:src="@drawable/alerts" />
+
+        <!-- Second Text -->
+        <ImageView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Text 2"
+            android:src="@drawable/dots"
+
+            android:layout_toEndOf="@id/icon2"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/lll"
+        android:layout_below="@id/laauu"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/newImageView1"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/price" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ert"
+        android:layout_below="@+id/lll">
+
+        <ImageView
+            android:id="@+id/leftImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lef"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:id="@+id/rightImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/down"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/centerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:backgroundTint="#00ffba"
+            android:text=" CHART"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ert"
+        android:id="@+id/asdf"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/newImageView12"
+            android:layout_width="600dp"
+            android:layout_height="153dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/omponente" />
+
+        <ImageView
+            android:id="@+id/newImageView2"
+            android:layout_width="371dp"
+            android:layout_height="158dp"
+            android:layout_below="@id/newImageView12"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="-223dp"
+            android:src="@drawable/chart" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/asdf"
+        android:layout_width="match_parent"
+        android:id="@+id/ikik"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+
+            <TextView
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:text="General"
+                android:backgroundTint="@color/white"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Technical selection"
+                android:backgroundTint="#f21cc8" />
+
+
+
+            <TextView
+                android:id="@+id/button4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:text="Markets"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ikik">
+
+        <TextView
+            android:id="@+id/text87"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="0.5"
+            android:backgroundTint="@color/white"
+            android:text="Buy or sell Stock"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/kjh" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="7dp"
+            android:layout_toRightOf="@id/imageView1"
+            android:src="@drawable/kt" />
+
+    </RelativeLayout>
+</RelativeLayout>

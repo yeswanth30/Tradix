@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_fragment11"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Fragment 1" />
+
+    <item
+        android:id="@+id/navigation_fragment22"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Fragment 2" />
+
+    <item
+        android:id="@+id/navigation_fragment33"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Fragment 3" />
+
+    <item
+        android:id="@+id/navigation_fragment44"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Fragment 4" />
+</menu>
