@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradix API Responses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Tradix API Responses</h1>
+
+<!-- /getstockdata Example -->
+<h2>/getstockdata</h2>
+<pre>
+{
+    "status": "success",
+    "code": "200",
+    "data": [
+        {
+            "Id": 1,
+            "Name": "MRF",
+            "Price": 95000,
+            "Time": "18:04:25",
+            "Preprice": 100000,
+            "Updated_time": "18:50:02"
+        }
+    ],
+    "message": "data successfully"
+}
+</pre>
+
+<!-- /givestock/id Example -->
+<h2>/givestock/id</h2>
+<pre>
+{
+    "status": "success",
+    "code": "200",
+    "data": [
+        {
+            "Id": 7,
+            "Name": "ICICI BANK",
+            "Price": 750,
+            "Time": "18:04:25",
+            "Preprice": 740,
+            "Updated_time": "18:50:02"
+        }
+    ],
+    "message": "data successfully"
+}
+</pre>
+
+<!-- /getbought/id Example -->
+<h2>/getbought/id</h2>
+<pre>
+{
+    "status": "success",
+    "code": "200",
+    "data": [
+        {
+            "User_id": 7,
+            "Stock_id": 3,
+            "Stock_price": 3700,
+            "Bought_count": 1,
+            "Bought_price": 3700,
+            "Bought_time": "2023-12-08T12:05:58.000Z",
+            "Stock_name": "TCS"
+        }
+    ],
+    "message": "data sent successfully"
+}
+</pre>
+
+<!-- /getsold/id Example -->
+<h2>/getsold/id</h2>
+<pre>
+{
+    "status": "success",
+    "code": "200",
+    "data": [
+        {
+            "User_id": 7,
+            "Stock_id": 3,
+            "Stock_price": 3700,
+            "Sold_count": 1,
+            "Sold_price": 3700,
+            "Sold_time": "2023-12-08T11:43:43.000Z",
+            "Stock_name": "TCS"
+        }
+    ],
+    "message": "data sent successfully"
+}
+</pre>
+
+<!-- /allnews Example -->
+<h2>/allnews</h2>
+<pre>
+{
+    "status": "success",
+    "code": "200",
+    "data": [
+        {
+            "Id": 1,
+            "Name": "Xiaomi",
+            "News": "Xiaomi launched its new 14 Ultra smartphone, featuring a 6.67-inch AMOLED display, a Snapdragon 8 Gen 3 processor, a 108-megapixel main camera, and a 5,180mAh battery with 120W fast charging support. The phone is priced at Rs. 49,999 for the 12GB+256GB va",
+            "Date": "2023-12-04T18:30:00.000Z"
+        }
+    ],
+    "message": "data successfully"
+}
+</pre>
+
+<!-- /getnews/id Example -->
+<h2>/getnews/id</h2>
+<pre>
+{
+    "status": "success",
+    "code": "200",
+    "data": [
+        {
+            "Id": 7,
+            "Name": "Realme",
+            "News": "Realme teased the design of its upcoming GT 5 Pro smartphone, which is expected to launch in India soon. The phone will feature a 6.62-inch AMOLED display with a 144Hz refresh rate and a peak brightness of 4,500 nits. The phone will also come with a Snapd",
+            "Date": "2023-12-04T18:30:00.000Z"
+        }
+    ],
+    "message": "data successfully"
+}
+</pre>
+
+</body>
+</html>
