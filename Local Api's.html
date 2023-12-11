@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradix API Documentation</title>
+</head>
+<body>
+
+<h1>Tradix API Documentation</h1>
+
+<h2>1. Stock Data APIs:</h2>
+<ul>
+    <li><code>/getstockdata</code> - (GET) Gives you All Stocks and their corresponding DATA (Id, Name, Price, Time, Preprice, Updated_time)</li>
+    <li><code>/givestock/id</code> - (GET) Gives You Stock that the user Clicked  #You have to send Stock_id</li>
+</ul>
+
+<h2>2. User Credential APIs:</h2>
+<ul>
+    <li><code>/signin</code> - (POST) Requires Email, Password</li>
+    <li><code>/login</code> - (POST) Requires Email and Password  #Gives you all the DATA of the particular User</li>
+</ul>
+
+<h2>3. Stocks and Users APIs:</h2>
+<ul>
+    <li><code>/buyit</code> - (POST) Requires User_id, Stocks_id, Stock_price, Count</li>
+    <li><code>/sellit</code> - (POST) Requires User_id, Stocks_id, Stock_price, Count</li>
+    <li><code>/getbought/id</code> - (GET) Requires User_id  #Gives you all the stock data of the User who Bought</li>
+    <li><code>/getsold/id</code> - (GET) Requires User_id  #Gives you all the stock data of the User who Sold</li>
+    <li><code>/updatebalance</code> - (POST) Requires Balance value to update user's Balance</li>
+</ul>
+
+<h2>4. News APIs:</h2>
+<ul>
+    <li><code>/allnews</code> - (GET) Gives You all News DATA</li>
+    <li><code>/getnews/id</code> - (GET) Gives you all the news DATA of a particular news that the user pressed  #Requires Id of news</li>
+</ul>
+
+</body>
+</html>
